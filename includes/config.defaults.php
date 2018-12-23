@@ -169,7 +169,7 @@ $config = array(
     ),
     // Documentation for the 'as' query
     'as' => array(
-      'command' => 'show route ^AS',
+      'command' => 'show route AS#',
       'description' => 'Show the routes received from a given neighboring AS number.',
       'parameter' => 'The parameter must be a valid 16-bit or 32-bit autonomous system number.<br />Be careful, 32-bit ASN are not handled by old routers or old router softwares.<br />Unless specified, private ASN will be considered as invalid.<br /><br />Example of valid argument:<br /><ul><li>15169</li><li>29467</li></ul>'
     ),

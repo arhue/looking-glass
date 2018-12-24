@@ -285,6 +285,12 @@ final class LookingGlass {
     print('<meta name="viewport" content="width=device-width, initial-scale=1" />');
     print('<meta name="keywords" content="Looking Glass, LG, BGP, prefix-list, AS-path, ASN, traceroute, ping, IPv4, IPv6, Cisco, Juniper, Internet" />');
     print('<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116950885-4"></script>');
+    print('<script>');
+    print('window.dataLayer = window.dataLayer || [];');
+    print('function gtag(){dataLayer.push(arguments);}');
+    print('gtag('js', new Date());');
+    print('gtag('config', 'UA-116950885-4');');
+    print('</script>');
     print('<meta name="description" content="'.$this->frontpage['title'].'" />');
     print('<link rel="shortcut icon" href="/favicon.ico">');
 	print('<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">');
